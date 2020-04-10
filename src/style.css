@@ -206,6 +206,10 @@ footer {
     
 }
 
+.ayuda{
+    cursor: pointer;
+}
+
 .fila1{
     display: flex;
     flex-direction: row;
@@ -297,6 +301,34 @@ footer {
     background-color:rgb(182, 19, 231);
     color: white;
     font-weight: bolder;
+}
+
+#exit {
+    color: tomato;
+    cursor: pointer;
+}
+
+.fondo{
+    width: 500px;
+    background-color: yellow;
+    height: 300px;
+    position: absolute;
+    top: 200px;
+    right: 420px;
+}
+
+.contenidoModal {
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    /* z-index: 1; */
+    /* overflow: auto; */
+    display: flex;
+	align-items: center;
+    justify-content: center;
 }
 
 
@@ -397,6 +429,7 @@ footer {
 
 
 /* pagina 2 estilos */
+    
     .pag2 {
         display: flex;
         width: 90%;
@@ -434,6 +467,10 @@ footer {
         font-size: 14px;
         font-weight: bold;
         color: rgb(33, 33, 33);
+    }
+
+    .ayuda{
+        cursor: pointer;
     }
     
     .fila2{

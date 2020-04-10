@@ -18,6 +18,8 @@ const ingresoTextoAdescifrar = document.getElementById('ingresoTextoAdescifrar')
 const botonaDescifrar = document.getElementById('aDescifrar');
 const textoDescifrado = document.getElementById('textoDescifrado');
 const botonaCopiar2 = document.getElementById('aCopiar2');
+const ayuda = document.getElementById('ayuda');
+const pantallaModal = document.getElementById('pantallaModal');
 pag2.style.display='none';
 
 siguiente.addEventListener('click', () => {
@@ -29,6 +31,26 @@ siguiente.addEventListener('click', () => {
     }
 });
 
+const pantalla = () => {
+    const mensaje = document.createElement('div');
+    mensaje.setAttribute('class', 'contenidoModal');
+    const info = `
+       <section class="fondo">
+        <i class="fas fa-times" id="exit"></i>
+        <p class="descripcion">kfdldkdkfjkldkfjdkjfkdsdsdsdsdsdfkfdkfkdjkjfdk</p>
+       </section>
+    `;
+    mensaje.innerHTML = info;
+    return mensaje;
+};
+    
+
+ayuda.addEventListener( 'click', ()=>{
+    pantallaModal.appendChild(pantalla());
+    pantallaModal.querySelector('#exit').addEventListener( 'click', () => {
+        pantallaModal.innerHTML = '';
+    });
+});
 
 botonaCifrar.addEventListener( 'click', () => {
     const espaciado = parseInt(numero.value, 10);
@@ -73,3 +95,5 @@ limpiarDescifrado.addEventListener('click', () => {
     ingresoTextoAdescifrar.value = '';
     numero.value = '';
 });
+
+
