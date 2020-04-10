@@ -6,6 +6,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Prompt:wght@400;700;800&family=Righteous&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quattrocento+Sans&display=swap');
 
+.hide {
+    display: none;
+}
+
 header {
     background-color: rgba(0, 0, 0, 0.822);
     height: 30px;
@@ -29,6 +33,31 @@ footer {
 
 .rrss{
     color: white;
+    text-shadow:
+		0 0 5px rgb(17, 221, 194),
+		0 0 10px rgba(0,178,255,1),
+		0 0 20px rgba(17, 221, 194,1),
+		0 0 40px rgba(38,104,127,1),
+		0 0 80px rgba(17, 221, 194,1),
+		0 0 90px rgba(38,104,127,1),
+		0 0 100px rgba(17, 221, 194,1),
+		0 0 140px rgba(38,104,127,1),
+		0 0 180px rgba(17, 221, 194,1);
+    margin: 15px 30px;
+}
+
+.rrss:hover{
+    color: white;
+    text-shadow:
+		0 0 5px rgb(152, 3, 252),
+		0 0 10px rgb(190, 100, 250),
+		0 0 20px rgba(152, 3, 252,1),
+		0 0 40px rgba(190, 100, 250,1),
+		0 0 80px rgba(152, 3, 252,1),
+		0 0 90px rgba(190, 100, 250,1),
+		0 0 100px rgba(152, 3, 252,1),
+		0 0 140px rgba(190, 100, 250,1),
+		0 0 180px rgb(152, 3, 252);
     margin: 15px 30px;
 }
 
@@ -101,6 +130,15 @@ footer {
     font-family: sans-serif;
     font-size: 14px;
     margin-bottom: 5px;
+}
+
+.contenedor{
+    position: absolute;
+    left: 5%;
+    font-family: sans-serif;
+    font-size: 10px;
+    bottom: 105px;
+    color: orangered;
 }
 
 .entrada {
