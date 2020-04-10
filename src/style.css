@@ -182,8 +182,8 @@ footer {
 
 .pag2 {
     display: flex;
-    /* align-items: center;
-    flex-direction: column; */
+    align-items: center;
+    flex-direction: column;
     margin: auto;
     width: 90%;
     height: 600px;
@@ -221,15 +221,6 @@ footer {
     justify-content: center;
     width: 35%;
     background-color: cornflowerblue;
-}
-.botonNum{
-    font-size: 20px;
-    height: 35px;
-    width: 5%;
-    border-radius: 5px;
-    border-style: none;
-    color: turquoise;
-    background-color: violet;
 }
 
 .boceto{
@@ -314,15 +305,6 @@ footer {
         justify-content: center;
         width: 35%;
         background-color: cornflowerblue;
-    }
-    .botonNum{
-        font-size: 20px;
-        height: 35px;
-        width: 15%;
-        border-radius: 5px;
-        border-style: none;
-        color: turquoise;
-        background-color: violet;
     }
     
     .boceto{
