@@ -111,6 +111,7 @@ footer {
     background: #FFFFFF;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.89);
     border-radius: 40px;
+    
 }
 
 .titulo {
@@ -175,4 +176,269 @@ footer {
 .next {
     font-size: 22px;
     color: white;
+}
+
+/* Estilos Pagina2 */
+
+.pag2 {
+    display: flex;
+    /* align-items: center;
+    flex-direction: column; */
+    margin: auto;
+    width: 90%;
+    height: 600px;
+    background-color: white;
+    font-family: 'Righteous', cursive;
+    font-family: 'Prompt', sans-serif;
+
+}
+
+.espaciado{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    background-color: tomato;
+    width: 90%;
+    height: 50px;
+    margin: auto;
+    
+}
+
+.fila1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: blue;
+    width: 50%;
+    height: 40px;
+
+}
+
+.fila2{
+    display: flex;
+    justify-content: center;
+    width: 35%;
+    background-color: cornflowerblue;
+}
+.botonNum{
+    font-size: 20px;
+    height: 35px;
+    width: 5%;
+    border-radius: 5px;
+    border-style: none;
+    color: turquoise;
+    background-color: violet;
+}
+
+.boceto{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: yellowgreen;
+    width: 90%;
+    height: 530px;
+    margin: auto;
+}
+
+
+
+.columna1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: yellow;
+    height: 500px;
+    width: 40%;
+}
+
+.box{
+    resize:none;
+}
+
+.limpiar{
+    background-color: crimson;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.btn {
+    border-style: none;
+    background-color: goldenrod;
+    padding: 2% 8%;
+}
+
+
+@media only screen and (max-width:768px) {
+    
+
+    
+    .pag2 {
+        display: flex;
+        width: 90%;
+        height: 1250px;
+        background-color: white;
+        font-family: 'Righteous', cursive;
+        font-family: 'Prompt', sans-serif;
+    
+    }
+    
+    .espaciado{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        background-color: tomato;
+        width: 90%;
+        height: 150px;
+        
+        
+    }
+    
+    .fila1{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: blue;
+        width: 80%;
+        height: 80px;
+    
+    }
+    
+    .fila2{
+        display: flex;
+        justify-content: center;
+        width: 35%;
+        background-color: cornflowerblue;
+    }
+    .botonNum{
+        font-size: 20px;
+        height: 35px;
+        width: 15%;
+        border-radius: 5px;
+        border-style: none;
+        color: turquoise;
+        background-color: violet;
+    }
+    
+    .boceto{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-around;
+        background-color: yellowgreen;
+        width: 90%;
+        height: 1100px;
+        /* margin: auto; */
+    }
+    
+    
+    
+    .columna1{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-evenly;
+        background-color: yellow;
+        width: 100%;
+       
+    }
+
+    
+    .limpiar{
+        background-color: crimson;
+        color: white;
+        padding: 10px;
+        border-radius: 20px;
+    }
+    
+    .btn {
+        border-style: none;
+        background-color: goldenrod;
+        padding: 2% 8%;
+    }
+
+    .box{
+        width: 95%;    
+    }
+
+        
+    header {
+        background-color: rgba(0, 0, 0, 0.822);
+        height: 30px;
+    }
+    .encabezado {
+        position: relative;
+        top: 25%;
+        font-size: 12px;
+        color: white;
+        font-family: 'Quattrocento Sans', sans-serif;
+    }
+    
+    footer {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 150px;
+        background-color:  rgba(0, 0, 0, 0.822);
+        color: white;
+        display: flex;
+    
+    }
+    
+    .rrss{
+        color: white;
+        text-shadow:
+            0 0 5px rgb(17, 221, 194),
+            0 0 10px rgba(43,199,151,1),
+            0 0 20px rgba(17, 221, 194,1),
+            0 0 40px rgba(43,199,151,1),
+            0 0 80px rgba(17, 221, 194,1),
+            0 0 90px rgba(43,199,151,1),
+            0 0 100px rgba(17, 221, 194,1),
+            0 0 140px rgba(43,199,151,1),
+            0 0 180px rgba(17, 221, 194,1);
+        margin: 15px 30px;
+    }
+    
+    .rrss:hover{
+        color: white;
+        text-shadow:
+            0 0 5px rgb(152, 3, 252),
+            0 0 10px rgb(190, 100, 250),
+            0 0 20px rgba(152, 3, 252,1),
+            0 0 40px rgba(190, 100, 250,1),
+            0 0 80px rgba(152, 3, 252,1),
+            0 0 90px rgba(190, 100, 250,1),
+            0 0 100px rgba(152, 3, 252,1),
+            0 0 140px rgba(190, 100, 250,1),
+            0 0 180px rgb(152, 3, 252);
+        margin: 15px 30px;
+    }
+    
+    .copyright{
+        color: white;
+        margin: 15px 30px;
+        font-family: 'Quattrocento Sans', sans-serif;
+        
+    }
+    
+    .izquierdo {
+        width: 50%;
+        background-color: rgb(128,81,223);
+        height: 100vh;
+    }
+    
+    .derecho {
+        width: 50%;
+        background-color: rgb(43,199,151);
+        height: 100vh;
+    }
+    
+    
 }
