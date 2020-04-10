@@ -50,7 +50,7 @@ botonaCopiar1.addEventListener('click', () => {
     document.body.appendChild(textoCopiado);
     textoCopiado.select();
     document.execCommand('copy');
-    // document.body.removeChild(textoCopiado);
+    document.body.removeChild(textoCopiado);
 });
 
 botonaCopiar2.addEventListener('click', () => {
