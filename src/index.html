@@ -15,7 +15,7 @@
         <div class="derecho">
           <img src="img/duda.png" class="duda" alt="duda">
           <img src="img/cifrado.png" alt="cifrado" class="cifrado">
-          <!-- <img src="img/develop.png" class="develop" alt="develop"> -->
+          
         </div>
         <section id="formulario" class="formulario">
           <p class="titulo">YOUR ENCRYPTION</p>
@@ -31,8 +31,33 @@
         </section>
       </section>
 
-      <section id="pag2" class="pag2 hide">
-          <p>codificacion</p>
+      <section id="pag2" class="pag2">
+          <section class="boceto" id="boceto">
+            <section class="espaciado" id="espaciado">
+              <p class="cifrado">Ingrese Número de Espaciado</p>
+              <input type="number" id="numero" class="numero">
+              <button id="botonNum" class="botonNum"><i class="fas fa-arrow-alt-square-down"></i></button>
+              <p>Ayuda?<img src="img/develop.png" class="develop" alt="develop"></p>
+            </section>
+
+            <section class="columnaCifrado" id="columnaCifrado">
+              <i class="fas fa-sync limpiar"></i>
+              <p>INGRESO TEXTO A CIFRAR</p>
+              <textarea name="boxAcifrar" id="ingresoTextoAcifrar" cols="30" rows="10"></textarea>
+              <button id="aCifrar" class="btn">CIFRAR</button>
+              <textarea name="textoCifrado" id="textoCifrado" cols="30" rows="10"></textarea>
+              <button id="aCopiar1" class="btn">COPIAR</button>
+            </section>
+
+            <section class="columnaDescifrado" id="columnaDescifrado">
+              <i class="fas fa-sync limpiar"></i>
+              <p>INGRESO TEXTO A DESCIFRAR</p>
+              <textarea name="boxAdescifrar" id="ingresoTextoAdescifrar" cols="30" rows="10"></textarea>
+              <button id="aDescifrar" class="btn">DESCIFRAR</button>
+              <textarea name="textoDescifrado" id="textoDescifrado" cols="30" rows="10"></textarea>
+              <button id="aCopiar2" class="btn">COPIAR</button>
+            </section>
+          </section>
       </section>
     </main>
     <footer>
