@@ -1,4 +1,4 @@
-import cipher from './cipher.js';
+// import cipher from './cipher.js';
 
 const nombre = document.getElementById('nombre');
 const telefono = document.getElementById('telefono');
@@ -19,4 +19,4 @@ siguiente.addEventListener('click', () => {
 });
 
 
-console.log(cipher);
+
