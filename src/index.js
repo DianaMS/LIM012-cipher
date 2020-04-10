@@ -17,7 +17,7 @@ const limpiarDescifrado = document.getElementById('limpiarDescifrado');
 const ingresoTextoAdescifrar = document.getElementById('ingresoTextoAdescifrar');
 const botonaDescifrar = document.getElementById('aDescifrar');
 const textoDescifrado = document.getElementById('textoDescifrado');
-const botonaCopiar2 = document..getElementById('aCopiar2');
+const botonaCopiar2 = document.getElementById('aCopiar2');
 pag2.style.display='none';
 
 siguiente.addEventListener('click', () => {
@@ -37,9 +37,25 @@ botonaCifrar.addEventListener( 'click', () => {
     textoCifrado.value = cipher.encode(espaciado, textoIngresado);
 });
 
+botonaDescifrar.addEventListener( 'click', () => {
+    const espaciado = parseInt(numero.value, 10);
+    const textoIngresado = ingresoTextoAdescifrar.value;
+
+    textoDescifrado.value = cipher.decode(espaciado, textoIngresado);
+});
+
 botonaCopiar1.addEventListener('click', () => {
     const textoCopiado = document.createElement('input');
     textoCopiado.setAttribute('value', textoCifrado.value);
+    document.body.appendChild(textoCopiado);
+    textoCopiado.select();
+    document.execCommand('copy');
+    // document.body.removeChild(textoCopiado);
+});
+
+botonaCopiar2.addEventListener('click', () => {
+    const textoCopiado = document.createElement('input');
+    textoCopiado.setAttribute('value', textoDescifrado.value);
     document.body.appendChild(textoCopiado);
     textoCopiado.select();
     document.execCommand('copy');
@@ -52,4 +68,8 @@ limpiarCifrado.addEventListener('click', () => {
     numero.value = '';
 });
 
-
+limpiarDescifrado.addEventListener('click', () => {
+    textoDescifrado.value = '';
+    ingresoTextoAdescifrar.value = '';
+    numero.value = '';
+});
