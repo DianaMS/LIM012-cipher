@@ -7,26 +7,39 @@
   </head>
   <body>
     <header>
-      <h1>-Project Cipher-</h1>
+      <h1 class="encabezado">- PROJECT CIPHER -</h1>
     </header>
     <main>
       <section id="pag1" class="pag1">
         <div class="izquierdo"></div>
-        <div class="derecho"></div>
+        <div class="derecho">
+          <img src="img/duda.png" class="duda" alt="duda">
+          <img src="img/cifrado.png" alt="cifrado" class="cifrado">
+          <!-- <img src="img/develop.png" class="develop" alt="develop"> -->
+        </div>
         <section id="formulario" class="formulario">
           <p class="titulo">YOUR ENCRYPTION</p>
-          <P class="item">Usuario</P>
-          <input type="text" id="nombre" class="entrada">
-          <P class="item">Teléfono</P>
-          <input type="text" id="telefono" class="entrada">
-          <P class="item">Correo</P>
-          <input type="text" id="correo" class="entrada">
+          <P class="item"><i class="fas fa-user icono"></i>Usuario</P>
+          <input type="text" id="nombre" class="entrada" placeholder="Ingrese su nombre">
+          <P class="item"><i class="fas fa-phone icono"></i>Teléfono</P>
+          <input type="text" id="telefono" class="entrada" placeholder="Ingrese su teléfono">
+          <P class="item"><i class="fas fa-envelope icono"></i>Correo</P>
+          <input type="text" id="correo" class="entrada" placeholder="Ingrese su correo">
+          <button class="siguiente" id="siguiente"><i class="fas fa-arrow-right next"></i></button>
         </section>
       </section>
     </main>
     <footer>
-
+      <section class="rrss">
+        <a href="https://www.google.com/" target="_blank" class="rrss" ><i class="fab fa-google"></i></a>
+        <a href="https://www.facebook.com/" target="_blank" class="rrss"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://twitter.com/login?lang=es" target="_blank" class="rrss"><i class="fab fa-twitter"></i></a>
+      </section>
+      <section class="copyright">
+        <p class="autora"> © 2020 Diana Martinez Sifuentes</p>
+      </section>
     </footer>
     <script src="index.js" type="module"></script>
+    <script src="https://kit.fontawesome.com/7e57db430e.js" crossorigin="anonymous"></script>
   </body>
 </html>

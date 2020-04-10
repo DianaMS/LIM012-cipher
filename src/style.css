@@ -3,6 +3,42 @@
     margin: 0;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@400;700;800&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento+Sans&display=swap');
+
+header {
+    background-color: rgba(0, 0, 0, 0.822);
+    height: 30px;
+}
+.encabezado {
+    position: relative;
+    top: 25%;
+    font-size: 12px;
+    color: white;
+    font-family: 'Quattrocento Sans', sans-serif;
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: stretch;
+    height: 50px;
+    background-color:  rgba(0, 0, 0, 0.822);
+    color: white;
+}
+
+.rrss{
+    color: white;
+    margin: 15px 30px;
+}
+
+.copyright{
+    color: white;
+    margin: 15px 30px;
+    font-family: 'Quattrocento Sans', sans-serif;
+    
+}
+
 .izquierdo {
     width: 50%;
     background-color: rgb(128,81,223);
@@ -15,6 +51,21 @@
     height: 100vh;
 }
 
+.duda{
+    position: relative;
+    left: 200px;
+    width: 50%;
+    top:50px;
+    transform: rotate(20deg);
+}
+
+.cifrado{
+    position: relative;
+    width: 28%;
+    left: 90px;
+    top: 140px;
+}
+
 .pag1 {
     display: -webkit-flex;
     position: relative;
@@ -25,7 +76,7 @@
     width: 400px;
     height: 500px;
     left: 35%;
-    top: 90px;
+    top: 50px;
     background: #FFFFFF;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.89);
     border-radius: 40px;
@@ -34,11 +85,22 @@
 .titulo {
     margin: 40px 150px;
     text-align: center;
+    font-family: 'Righteous', cursive;
+    font-family: 'Prompt', sans-serif;
+    font-weight: bolder;
+    font-size: 18px;
+    
 }
 
+.icono {
+    margin-right: 5px;
+}
 .item{
     position: relative;
-    left: 15%;
+    left: 10%;
+    font-family: sans-serif;
+    font-size: 14px;
+    margin-bottom: 5px;
 }
 
 .entrada {
@@ -50,4 +112,27 @@
     border-style: none;
     background: #C4C4C4;
     border-radius: 5px;
+    outline-style: none;
+    text-indent: 10px;
+}
+
+.siguiente {
+    background-color: rgb(128,81,223);
+    position: relative;
+    top: -10px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    border-style: none;
+    left: 41%;
+    cursor: pointer;
+    outline-style: none;
+}
+
+.siguiente:hover {
+    background-color: rgb(43,199,151);
+}
+.next {
+    font-size: 22px;
+    color: white;
 }
