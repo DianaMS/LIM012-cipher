@@ -57,31 +57,39 @@ de Cifrado César, para poder enmascarar el mensaje.
   La primera actividad, fue realizar prototipos en baja fidelidad, luego recibir feedback
   de algunos usuarios al utilizar el prototipo.
 
-  --> Primera Pantalla a lápiz y papel
+  #### --> Primera Pantalla a lápiz y papel
 
   ![BajaFidelidad1](./img_readme/BajaFidelidad1.jpeg)
 
-  --> Primera Pantalla a lápiz y papel
+  #### --> Segunda Pantalla a lápiz y papel
 
   ![BajaFidelidad2](./img_readme/BajaFidelidad2.jpeg)
 
 
+### PROTOTIPOS EN ALTA FIDELIDAD
+
+  La segunda actividad, fue realizar prototipos en alta fidelidad, agregando algunas sugerencias
+  del usuario al probar el producto.
+
+  Se agregó:
+    + Un botón que limpie los contenidos del box
+    + Se estructuró mejor los inputs de información del usuario
+    + Se colocó el botón siguiente en el medio
+    + Se agregó botones "COPIAR" para brindarle mayor facilidad al usuario de copiar el
+      texto cifrado y/o descifrado
+    + En el footer se agregó íconos que me direccionaran a páginas muy buscadas por el 
+      usuario (facebook, twiter, gmail)
+
+  
+  #### --> Primera Pantalla en Alta Fidelidad
+
+  ![AltaFidelidad1](./img_readme/AltaFidelidad1.JPG)
+
+  #### --> Segunda Pantalla en Alta Fidelidad
+
+  ![AltaFidelidad2](./img_readme/AltaFidelidad1.JPG)
 
 
-
-Debe contener lo siguiente:
-
-* Un título con el nombre de tu proyecto.
-* Un resumen de 1 o 2 líneas de qué se trata tu proyecto.
-* La imagen final de tu proyecto.
-* Investigación UX:
-  1. Explicar quiénes son los usuarios y los objetivos en relación con el
-    producto.
-  2. Explicar cómo el producto soluciona los problemas/necesidades de dichos
-    usuarios.
-  3. Luego colocarás la foto de tu primer prototipo en papel.
-  4. Agregar un resumen del feedback recibido indicando las mejoras a realizar.
-  5. Imagen del prototipo final.
 
 
 ## Objetivos de aprendizaje
