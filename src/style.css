@@ -74,13 +74,13 @@ footer {
 .izquierdo {
     width: 50%;
     background-color: rgb(128,81,223);
-    height: 100vh;
+    height: 90vh;
 }
 
 .derecho {
     width: 50%;
     background-color: rgb(43,199,151);
-    height: 100vh;
+    height: 90vh;
 }
 
 .duda{
