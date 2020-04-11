@@ -14,17 +14,11 @@ Para más información de la técnica usada, visitar:
 
 ### <-PRIMERA PANTALLA->
 
-![primeraPantalla](./img_readme/BajaFidelidad 1.jpeg)
+![primeraPantalla](./img_readme/pantalla1.JPG)
 
 ### <-SEGUNDA PANTALLA->
 
-![segundaPantalla](./img_readme/BajaFidelidad 2.jpeg)
-
-
-
-
-![caeser-cipher](../img_readme/BajaFidelidad 1.jpeg)
-
+![segundaPantalla](./img_readme/pantalla2.JPG)
 
 
 Debe contener lo siguiente:
