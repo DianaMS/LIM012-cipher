@@ -90,8 +90,12 @@ de Cifrado César, para poder enmascarar el mensaje.
   ![AltaFidelidad2](./img_readme/AltaFidelidad2.JPG)
 
   ### VERSIÓN MOBILE
-  
+
  ![AltaFidelidad2](./img_readme/vid1.gif)
+
+ ### VERSIÓN ESCRITORIO
+  
+ ![AltaFidelidad2](./img_readme/vid2.gif)
 
 ## Objetivos de aprendizaje
 
