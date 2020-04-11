@@ -21,6 +21,54 @@ Para más información de la técnica usada, visitar:
 ![segundaPantalla](./img_readme/pantalla2.JPG)
 
 
+## INVESTIGACIÓN UX
+
+-> Los usuarios sienten la necesidad de enviar información segura a su
+receptor, ésta página les resuelve el problema utilizando la técnica
+de Cifrado César, para poder enmascarar el mensaje.
+
+# > ¿Cómo resuelve el problema?  <
+
+* El usuario deberá ingresar sus datos en el formulario mostrado, para
+  poder acceder a la segunda pantalla
+* Todos los campos son obligatorios, al darle siguiente recibirá un mensaje
+  en caso no complete todos los campos
+* En la segunda pantalla, si el usuario no entiendo como funciona el flujo de
+  la página, éste tendrá acceso a la palabra "ayuda", al darle click, se abrirá
+  una pantalla explicativa con los pasos a seguir.
+* En la parte superior se visualiza un box, para ingresar el número de espaciado
+  a recorrer.
+* En el box "Ingrese su texto a cifrar", el usuario deberá ingresar el mensaje a
+  cifrar, luego darle click en el boton CIFRAR y obtendrá en el segundo box inferior
+  el mensaje cifrado.
+* El usuario cuenta con un botón COPIAR que realizará la función de copiar el texto
+  cifrado.
+* En el box "Ingrese su texto a descifrar", el usuario deberá ingresar el mensaje a
+  descifrar o ingresar el texto cifrado que copió, luego darle click en el botón 
+  DESCIFRAR y obtendrá en el segundo box inferior el mensaje descifrado.
+* El usuario cuenta con un botón COPIAR que realizará la función de copiar el texto
+  descifrado.
+* En ambas columnas, se cuenta con un botón ícono de Refresh, que permitirá al usuario
+  limpiar el contenido de los boxs.
+
+
+### PROTOTIPOS EN BAJA FIDELIDAD
+
+  La primera actividad, fue realizar prototipos en baja fidelidad, luego recibir feedback
+  de algunos usuarios al utilizar el prototipo.
+
+  --> Primera Pantalla a lápiz y papel
+
+  ![BajaFidelidad1](./img_readme/BajaFidelidad 1.jpeg)
+
+  --> Primera Pantalla a lápiz y papel
+  
+  ![BajaFidelidad2](./img_readme/BajaFidelidad 2.jpeg)
+
+
+
+
+
 Debe contener lo siguiente:
 
 * Un título con el nombre de tu proyecto.
