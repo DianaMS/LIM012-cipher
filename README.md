@@ -59,11 +59,11 @@ de Cifrado César, para poder enmascarar el mensaje.
 
   --> Primera Pantalla a lápiz y papel
 
-  ![BajaFidelidad1](./img_readme/BajaFidelidad 1.jpeg)
+  ![BajaFidelidad1](./img_readme/BajaFidelidad1.jpeg)
 
   --> Primera Pantalla a lápiz y papel
-  
-  ![BajaFidelidad2](./img_readme/BajaFidelidad 2.jpeg)
+
+  ![BajaFidelidad2](./img_readme/BajaFidelidad2.jpeg)
 
 
 
