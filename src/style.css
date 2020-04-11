@@ -303,22 +303,17 @@ footer {
     font-weight: bolder;
 }
 
-#exit {
-    color: tomato;
-    cursor: pointer;
-}
-
 .fondo{
     width: 500px;
-    background-color: yellow;
-    height: 300px;
+    background-color: rgb(42, 235, 138);
+    height: 320px;
     position: absolute;
     top: 200px;
     right: 420px;
 }
 
 .contenidoModal {
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.8);
     position: fixed;
     height: 100%;
     width: 100%;
@@ -329,6 +324,45 @@ footer {
     display: flex;
 	align-items: center;
     justify-content: center;
+}
+
+#exit {
+    cursor: pointer;
+    font-size: 25px;
+    position: relative;
+    left: 470px;
+    top: 10px;
+    color: rgb(255, 255, 255);
+    text-shadow:
+    0 0 5px rgb(152, 3, 252),
+    0 0 10px rgb(190, 100, 250),
+    0 0 20px rgba(152, 3, 252,1),
+    0 0 40px rgba(190, 100, 250,1),
+    0 0 80px rgba(152, 3, 252,1),
+    0 0 90px rgba(190, 100, 250,1),
+    0 0 100px rgba(152, 3, 252,1),
+    0 0 140px rgba(190, 100, 250,1),
+    0 0 180px rgb(152, 3, 252);
+
+}
+
+.tamaño {
+    font-family: 'Prompt', sans-serif;
+    font-size: 12px;
+    line-height: 20px;
+    text-indent: 15px;
+}
+
+.descripcion{
+    position: relative;
+    left: 10px;
+}
+
+.negrita{
+    position: relative;
+    padding: 8px;
+    font-weight: bold;
+    color: rgb(39, 39, 39);
 }
 
 
@@ -464,7 +498,7 @@ footer {
 
     .espacio{
         font-family: 'Manjari', sans-serif;
-        font-size: 14px;
+        font-size: 13px;
         font-weight: bold;
         color: rgb(33, 33, 33);
     }
@@ -607,5 +641,70 @@ footer {
         height: 115vh;
     }
     
+    .fondo{
+        width: 310px;
+        background-color: rgb(42, 235, 138);
+        height: 450px;
+        position: absolute;
+        top: 120px;
+        left: 7%;
+    }
+    
+    .contenidoModal {
+        background: rgba(0, 0, 0, 0.8);
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        /* z-index: 1; */
+        /* overflow: auto; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #exit {
+        cursor: pointer;
+        font-size: 25px;
+        position: relative;
+        left: 270px;
+        top: 10px;
+        color: rgb(255, 255, 255);
+        text-shadow:
+        0 0 5px rgb(152, 3, 252),
+        0 0 10px rgb(190, 100, 250),
+        0 0 20px rgba(152, 3, 252,1),
+        0 0 40px rgba(190, 100, 250,1),
+        0 0 80px rgba(152, 3, 252,1),
+        0 0 90px rgba(190, 100, 250,1),
+        0 0 100px rgba(152, 3, 252,1),
+        0 0 140px rgba(190, 100, 250,1),
+        0 0 180px rgb(152, 3, 252);
+    
+    }
+    
+    .tamaño {
+        font-family: 'Prompt', sans-serif;
+        font-size: 12.5px;
+        line-height: 20px;
+        text-indent: 1px;
+        
+    }
+    
+    .descripcion{
+        position: relative;
+        left: 10px;
+        width: 290px;
+        text-align: left;
+    }
+    
+    .negrita{
+        position: relative;
+        padding: 8px;
+        font-weight: bolder;
+        color: rgb(39, 39, 39);
+        font-size: 14px;
+    }
     
 }

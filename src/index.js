@@ -37,7 +37,20 @@ const pantalla = () => {
     const info = `
        <section class="fondo">
         <i class="fas fa-times" id="exit"></i>
-        <p class="descripcion">kfdldkdkfjkldkfjdkjfkdsdsdsdsdsdfkfdkfkdjkjfdk</p>
+        <div class="descripcion">
+            <p class="negrita">PARA CIFRAR UN MENSAJE</p>
+            <p class="tamaño"><span class="negrita">1.-</span> Ingrese en la casilla el número de desplazamiento</p>
+            <p class="tamaño"><span class="negrita">2.-</span> Ingrese un texto para cifrar, luego darle click al boton CIFRAR</p>
+            <p class="tamaño"><span class="negrita">3.-</span> El texto cifrado aparecerá en el segundo box</p>
+            <p class="tamaño"><span class="negrita">4.-</span> El botón COPIAR, copia el texto del texto cifrado</p>
+            <p class="tamaño"><span class="negrita">5.-</span> El botón REFRESH, limpiará el contenido</p>  
+            <p class="negrita">PARA CIFRAR UN MENSAJE</p>
+            <p class="tamaño"><span class="negrita">1.-</span>Ingrese en la casilla el número de desplazamiento</p>
+            <p class="tamaño"><span class="negrita">2.-</span> Ingrese un texto para descifrar, luego darle click al boton DESCIFRAR</p>
+            <p class="tamaño"><span class="negrita">3.-</span> El texto descifrado aparecerá en el segundo box</p>
+            <p class="tamaño"><span class="negrita">4.-</span> El botón COPIAR, copia el texto del texto descifrado</p>
+            <p class="tamaño"><span class="negrita">5.-</span> El botón REFRESH, limpiará el contenido</p>
+        </div>
        </section>
     `;
     mensaje.innerHTML = info;
