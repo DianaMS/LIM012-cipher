@@ -69,7 +69,7 @@ de Cifrado César, para poder enmascarar el mensaje.
 ### PROTOTIPOS EN ALTA FIDELIDAD
 
   La segunda actividad, fue realizar prototipos en alta fidelidad, agregando algunas sugerencias
-  del usuario al probar el producto.
+  del usuario al probar el producto. Los prototipos en Alta Fidelidad se realizaron en FIGMA.
 
   Se agregó:
     * Un botón que limpie los contenidos del box
@@ -87,7 +87,7 @@ de Cifrado César, para poder enmascarar el mensaje.
 
   #### --> Segunda Pantalla en Alta Fidelidad
 
-  ![AltaFidelidad2](./img_readme/AltaFidelidad1.JPG)
+  ![AltaFidelidad2](./img_readme/AltaFidelidad2.JPG)
 
 
 
