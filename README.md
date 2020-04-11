@@ -72,13 +72,13 @@ de Cifrado César, para poder enmascarar el mensaje.
   del usuario al probar el producto. Los prototipos en Alta Fidelidad se realizaron en FIGMA.
 
   Se agregó:
-    * Un botón que limpie los contenidos del box
-    * Se estructuró mejor los inputs de información del usuario
-    * Se colocó el botón siguiente en el medio
-    * Se agregó botones "COPIAR" para brindarle mayor facilidad al usuario de copiar el
-      texto cifrado y/o descifrado
-    * En el footer se agregó íconos que me direccionaran a páginas muy buscadas por el 
-      usuario (facebook, twiter, gmail)
+   * Un botón que limpie los contenidos del box
+   * Se estructuró mejor los inputs de información del usuario
+   * Se colocó el botón siguiente en el medio
+   * Se agregó botones "COPIAR" para brindarle mayor facilidad al usuario de copiar el
+     texto cifrado y/o descifrado
+   * En el footer se agregó íconos que me direccionaran a páginas muy buscadas por el 
+     usuario (facebook, twiter, gmail)
 
   
   #### --> Primera Pantalla en Alta Fidelidad
