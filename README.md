@@ -12,15 +12,13 @@ las facilidades al usuario para poder manejarla.
 Para más información de la técnica usada, visitar:
 --> [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher)
 
-<-PRIMERA PANTALLA->
+### <-PRIMERA PANTALLA->
 
-![caeser-cipher](../img_readme/BajaFidelidad 1.jpeg)
+![primeraPantalla](./img_readme/BajaFidelidad 1.jpeg)
 
+### <-SEGUNDA PANTALLA->
 
-
-
-
-
+![segundaPantalla](./img_readme/BajaFidelidad 2.jpeg)
 
 
 
